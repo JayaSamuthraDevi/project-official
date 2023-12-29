@@ -11,11 +11,20 @@ Author URL: http://webthemez.com
   width:50px;
   height:50px;
   }
-
+p{
+  font-size: 16px;
+}
+h3{
+  text-align: center;
+  color: #fff;
+}
+#pricing{
+  background: var(--secondary) !important;
+}
 /***********************/
 
 :root{
-  --secondary:#f1d955;
+  --secondary:#FFC000;
   --secondary-dark:#d4a73f;
 };
 
