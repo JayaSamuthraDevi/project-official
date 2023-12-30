@@ -95,6 +95,22 @@ h3 {
   0% {transform: translateX(0);}
   100% {transform: translatex(-1000%)}
 }
+.certificate-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.certificate-img{
+  width:  400px;
+  height: 400px;
+}
+.certificate-img:hover{
+  width: 410px;
+  height: 410px;
+  transition: 1s ;
+}
 /***********************/
 
 :root {
