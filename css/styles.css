@@ -53,23 +53,7 @@ h3 {
   -ms-transform: skewY(var(--skew-angle));
   -o-transform: skewY(var(--skew-angle));
 }
-.product-img{
-  width: 250px;
-  height: 200px;
-}
-.service-box:hover .product-img{
-  transform:scale(1.1);
-  opacity: .5;
-}
-.service-box:hover .media-body{
-  display: block;
-}
-.media-heading {
-  position: absolute;
-  inset: 20px 50px;
-  font-size: 22px;
-  
-}
+
 .carousel-img {
   width: 100px;
   height: 100px;
@@ -98,14 +82,28 @@ h3 {
   align-items: center;
   row-gap: 3rem;
   flex-wrap: wrap;
+  margin: 0 10%;
+
 }
 .services-div div{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  gap:1rem;
 }
-.services-div .media-body{
-  display: none;
+.product-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin:5%;
+}
+.service-box:hover .product-img{
+  transform:scale(1.1);
+  opacity: .5;
+}
+.media-heading {
+  font-size: 20px;
+  max-width: 150px;
 }
 .certificate-div{
   display: flex;
@@ -115,13 +113,13 @@ h3 {
   flex-wrap: wrap;
 }
 .certificate-img{
-  width:  400px;
-  height: 400px;
+  width:  350px;
+  height: 350px;
 }
 .certificate-img:hover{
-  width: 410px;
-  height: 410px;
-  transition: 1s ;
+ width: 360px;
+ height: 360px;
+ transition: 1s ease-in-out;
 }
 /***********************/
 
