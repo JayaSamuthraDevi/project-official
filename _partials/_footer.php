@@ -77,7 +77,7 @@
      <div class="container">
        <div class="row">
          <div class="col-12 text-center">
-           <p class="copyright-text">Contixs &copy; 2019 all rights reserved</p>
+           <p class="copyright-text"><?php echo $company_name ?> &copy; 2024 all rights reserved</p>
          </div>
        </div>
      </div>
