@@ -58,6 +58,15 @@
 ::before {
   box-sizing: border-box;
 }
+.single-slide{
+  position: absolute;
+  top:-20%;
+  left:-8%;
+
+}
+.slider-content{
+  width:50%;
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
