@@ -189,7 +189,8 @@ a, a:hover, a:focus, a:active, button, button:focus, input, select, textarea, .s
 
 /*****************************
 01 - Base - Typography
-*****************************/
+***********************
+******/
 .heading__primary {
   font-size: 6.5rem;
   line-height: 1.154; }
@@ -333,7 +334,8 @@ a, a:hover, a:focus, a:active, button, button:focus, input, select, textarea, .s
   position: absolute;
   content: ""; }
 
-.heading__secondary, .wrapper, .scroll-to-top i, .scroll-to-top i:before, .hamburger-icon, .page-title-area, .breadcrumb li, .blog__media, .single-post__info blockquote, .slick-dots, .slick-dots li, .comment .single-comment, .feature, .newsletter-form, .main-navigation .mainmenu__item.menu-item-has-children > a, .main-navigation .mainmenu__item.menu-item-has-children ul li.menu-item-has-children > a, .offcanvas-navigation .offcanvas-menu > li > a span, .offcanvas-navigation .offcanvas-menu li, .portfolio__inner, .pricing__inner, .progress-charts .progress-bar, .service__image, .service__category, .homepage-slider, .testimonial-style-1 .testimonial__author {
+.heading__secondary, .wrapper, .scroll-to-top i, .scroll-to-top i:before, .hamburger-icon, .page-title-area, .breadcrumb li, .blog__media, .single-post__info blockquote, .slick-dots, .slick-dots li, .comment .single-comment, .feature, .newsletter-form, .main-navigation .mainmenu__item.menu-item-has-children > a, .main-navigation .mainmenu__item.menu-item-has-children ul li.menu-item-has-children > a, .offcanvas-navigation .offcanvas-menu > li > a span, .offcanvas-navigation .offcanvas-menu li, .portfolio__inner, .pricing__inner, .progress-charts .progress-bar, .service__image, .service__category, .homepage-
+, .testimonial-style-1 .testimonial__author {
   position: relative; }
 
 .portfolio__inner:before {
@@ -2007,6 +2009,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
 *****************************/
 .homepage-slider .single-slide {
   height: 790px;
+  z-index: 1000;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center; }
